@@ -1,0 +1,21 @@
+{
+    "activites": [
+      {
+        "type": "Course à pied",
+        "temps": "30 minutes"
+      },
+      {
+        "type": "Natation",
+        "temps": "45 minutes"
+      },
+      {
+        "type": "Cyclisme",
+        "temps": "1 heure"
+      },
+      {
+        "type": "Apnee",
+        "temps": "3 minutes"
+      }
+    ]
+  }
+  
