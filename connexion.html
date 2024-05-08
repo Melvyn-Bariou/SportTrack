@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <!--Les balises meta-->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="SportTrack, sport, tracker">
+    <meta name="author" content="Melvyn BARIOU et Kyllian RIVALLAND">
+    <meta name="description" content="Site de données sportive">
+
+    <!--Les balises link-->
+
+    <link rel="stylesheet" href="../css/style2.css">
+
+    <!--Les autres balises-->
+
+    <title>SportTrack - Connexion</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="header-gauche">
+            <img src="../Images/logo_sporttrack.png" alt="logo de SportTrack" id="logo">
+        </div>
+
+        <div class="header-droite">
+            <a href="inscription.html" class="btn">S'inscrire</a>
+        </div>
+
+    </header>
+
+    <div class="page-principale1">
+
+        <div id="espace-connexion">
+
+            <h1>Se connecter</h1>
+            <div id="espace-formulaire-connexion">
+                <form action="../html/activite.html" method="get"> 
+                    <div class="form-group">
+                        <label for="email">Adresse e-mail :</label>
+                        <input type="email" id="email" placeholder="Entrez votre email : martin.dupont@gmail.com" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"> <!--Utilisation d'un patern pour entrer uniquement des adresses mails valides-->
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="motdepasse">Mot de passe :</label>
+                        <input type="password" id="motdepasse" placeholder="Entrez votre mot-de-passe :" name="motdepasse" required>
+                    </div>
+    
+                    <div class="form-group">
+                        <input type="submit" value="Se connecter">
+                    </div>
+    
+                    <div class="form-group">
+                        <a href="inscription.html" class="btn2">Pas de compte ? Inscrivez-vous !</a>
+                    </div>
+                </form>
+            </div>
+    
+        </div>
+    
+
+    </div>
+    
+    <footer>
+
+        <div>
+            <div id="contenu-footer">
+                <p>&copy; 2023 SportTrack - Tous droits réservés.</p>
+                <p><a href="mailto:contact.sporttrack@monsite.bzh">Contactez nous !</a></p>
+                <p><a href="../html/apropos.html">À propos</a></p>
+            </div>
+        </div>
+
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <!--Les balises meta-->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Melvyn BARIOU et Kyllian RIVALLAND">
+    <meta name="description" content="Site de données sportive">
+
+    <!--Les balises link-->
+
+    <link rel="stylesheet" href="../css/style2.css">
+
+    <!--Les autres balises-->
+
+    <title>SportTrack - Vos activités</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="header-gauche">
+            <img src="../Images/logo_sporttrack.png" alt="logo de SportTrack" id="logo">
+        </div>
+
+        <div class="header-droite">
+            <a href="profil.html"><img src="../Images/icon2.png" class="pdp" alt="logo utilisateur" title="Vos informations"></a>
+            <a href="connexion.html"><img src="../Images/icon1.png" class="icon" alt="logo cadenas" title="Déconnectez-vous"></a>
+        </div>
+        
+
+    </header>
+
+
+    <div class="page-principale3">
+
+        <div id="espace-activites">
+
+            <h1>Suivez vos activités</h1>
+    
+            <div class="btn">
+                <input type="file" id="fileInput" accept=".json" style="display: none;">
+                <label for="fileInput" id="fileInputLabel" class="custom-file-upload">Sélectionnez un fichier JSON</label>
+            </div>
+    
+            
+    
+            <h1>Vos activités importées :</h1>
+            
+            <h5 id="message-aucune-activite">Aucune activité importée pour le moment</h5>
+    
+            <button class="btn">Supprimer un fichier</button>
+    
+        </div>
+    </div>
+
+    
+
+    <footer>
+
+        <div>
+            <div id="contenu-footer">
+                <p>&copy; 2023 SportTrack - Tous droits réservés.</p>
+                <p><a href="mailto:contact.sporttrack@monsite.bzh">Contactez nous !</a></p>
+                <p><a href="../html/apropos.html">À propos</a></p>
+            </div>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
