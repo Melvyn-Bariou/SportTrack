@@ -1,0 +1,399 @@
+/* Le style général s'appliquant à toute la page */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Le style des balises */
+
+/* Le style du header */
+
+header{
+    background-color: #ffff;
+    width: 100%; /*Le header rempli toute la largeur de la page*/
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Le style du corps de page */
+
+body{
+    font-family: sans-serif;
+}
+
+/* Le style du footer */
+
+footer{
+    background-color: #ffff;
+    width: 100%; /*Le footer rempli toute la largeur de la page*/
+    height: 140px;
+    bottom: 0; /* obligatoire ? */
+}
+
+/* Le style des identifiants */
+
+/* Le logo */
+
+#logo{
+    
+    width: 330px;
+    height: 50px;
+    padding-top: 25px;
+    margin-left: 10%;
+}
+
+/* Le style de l'espace inscription sur inscription.html */
+
+#espace-inscription{
+    width: 700px;
+    height: 935px;
+    background-color: rgba(0, 0, 0, 0.437);
+    margin-right: auto; /*Pour centrer la class inscription au milieu de la page*/
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+}
+
+#espace-inscription h1{
+    color: #ffff;
+    text-align: center;
+    padding-top: 25px;
+   
+}
+
+#espace-inscription h2{
+    color: #ffff;
+    text-align: center;
+}
+
+#espace-inscription p{
+    color: orangered;
+    text-align: center;
+    margin: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+/* Le style de l'espace connexion sur connexion.html */
+
+#espace-connexion{
+    width: 700px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.437);
+    margin-right: auto; /*Pour centrer la class inscription au milieu de la page*/
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+}
+
+#espace-connexion h1{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding-top: 25px;
+    
+}
+
+#espace-connexion h2{
+    color: white;
+    text-align: center;
+}
+
+#espace-connexion p{
+    color: orangered;
+    text-align: center;
+    margin: 20px;
+    text-transform: capitalize;
+}
+
+/* Le style de l'espace activités */
+
+#espace-activites{
+    width: 700px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.437);
+    margin-right: auto; /*Pour centrer la class inscription au milieu de la page*/
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; /* Permet d'aligner verticalement le contenu si nécessaire */
+    align-items: center; /* Aligne le contenu au centre horizontalement */
+}
+
+#espace-activites h1{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+/* Le syle du formulaire dans l'espace d'inscription */
+
+#espace-formulaire-inscription{
+    width: 100%;
+    height: 930px;
+}
+
+/* Le syle du formulaire dans l'espace de connexion */
+
+#espace-formulaire-connexion{
+    width: 100%;
+    height: 350px;
+}
+
+/* Le style de la page profil.html*/
+
+
+#espace-infos{
+    width: 700px;
+    height: 935px;
+    background-color: rgba(0, 0, 0, 0.437);
+    margin-right: auto; /*Pour centrer la class inscription au milieu de la page*/
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+}
+
+#espace-infos h1{
+    color: #ffff;
+    text-align: center;
+    padding-top: 25px;
+   
+}
+
+#espace-infos h2{
+    color: #ffff;
+    text-align: center;
+}
+
+#espace-infos p{
+    color: orangered;
+    text-align: center;
+    margin: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+/* Le style de l'espace a propos de apropos.html */
+
+#espace-apropos{
+    width: 90%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.437);
+    margin-right: auto; /*Pour centrer la class inscription au milieu de la page*/
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column; /* Permet d'aligner verticalement le contenu si nécessaire */
+    align-items: center; /* Aligne le contenu au centre horizontalement */
+    color: #EBF2FA;
+    border-radius: 8px;
+}
+
+#espace-apropos h5{
+    margin: 20px;
+    font-size: medium;
+}
+
+#espace-apropos h1{
+    padding-top: 10px;
+}
+
+/* Style message page activite.html */
+
+#message-aucune-activite{
+    color: #ffff;
+    margin: 20px;
+}
+
+#message-aucune-activite:hover{
+    color: #ffff;
+    font-size: larger;
+}
+
+/* Le style du footer */
+
+#contenu-footer{
+    text-align: center;
+    margin-top: 18px;
+  }
+  
+#contenu-footer p{
+    color: black;
+    padding: 5px;
+    font-size: larger;
+    padding-top: 10px;
+}
+  
+#contenu-footer p a{
+    color: black;
+}
+  
+#contenu-footer p:hover{
+    color: orangered;
+    font-size: medium;
+}
+  
+#contenu-footer a:hover{
+    color: orangered;
+    font-size: larger;
+}
+
+/* Le style des classes  */
+
+/* La partie gauche du header */
+
+.header-gauche{
+    width: 50%;
+    height: 100px;
+}
+
+/* La partie droite du header */
+
+.header-droit{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Les logos du header */
+
+.pdp{
+    width: 60px;
+    height: 60px;
+    margin-top: 2%;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+
+
+/* Style de la page principale */
+
+.page-principale1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-image: url(../Images/image3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 1150px
+}
+
+.page-principale2{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-image: url(../Images/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 1150px
+}
+
+.page-principale3{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-image: url(../Images/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 1150px
+}
+
+/* Le style du formulaire de la page inscription.html, connexion.html, profil.html */
+
+.form-group {
+    margin-bottom: 5px;
+    width: 350px;
+    margin-left: 22%;
+    margin-top: 13px;
+    color: #ffff;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style pour le bouton "S'inscrire" */
+.form-group input[type="submit"] {
+    background-color: orangered;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 35%;
+    margin-top: 15px;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #ffff;
+    color: black;
+}
+
+/* Le style des boutons */
+
+.btn{
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #ffff;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.btn2{
+    text-decoration: none;
+    color: #ffff;
+    margin-left: 15%;
+    display: inline-block; 
+    border: 2px solid transparent; 
+    padding: 5px 10px; 
+    border-radius: 5px;
+}
+
+.btn2:hover{
+    border-color: #ffff;
+}
+
