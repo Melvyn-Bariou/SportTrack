@@ -8,7 +8,7 @@ Bienvenue sur SportTrack !
 
 Si vous souhaitez exécuter ce site web localement sur votre propre ordinateur, suivez ces étapes :
 
-1. Déposez le fichier (décompréssé) dans votre répertoire apache ou sont stocké vos sites.
+1. Déposez le fichier (décompréssé) dans votre répertoire apache ou sont stockés vos sites.
 2. Saisissez dans votre barre de recherche : "http://localhost/siteSportTrack/html/inscription.html".
 3. Découvrez et naviguez le site SportTrack !
 
